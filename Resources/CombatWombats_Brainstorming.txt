@@ -126,5 +126,9 @@ Project Phases:
 2. Create branches, 1 per question/topic
 3. Copy this main py file into the branches, each group member will work on a different branch - 
     Title the py file in each branch with group member's name
+<<<<<<< HEAD
 >>>>>>> 5f78547f019cb853747e44e27200203968250480
+=======
+>>>>>>> main
+>>>>>>> 3aa1da458130cd86ae9fb57842a9ed682f86e775
 4. Team meeting to approve and merge into main
