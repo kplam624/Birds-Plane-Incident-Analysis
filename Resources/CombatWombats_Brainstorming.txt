@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Project 1 Proposal
 Bird strikes - Aircraft logs questions:
 
@@ -61,4 +62,69 @@ Project Phases:
 2. Create branches, 1 per question/topic
 3. Copy this main py file into the branches, each group member will work on a different branch - 
     Title the py file in each branch with group member's name
+=======
+Project 1 Proposal
+Bird strikes - Aircraft logs questions:
+
+Goal: Identify the highest risk factors to prevent injuries and/or fatalities caused by bird strikes to airplanes
+Data Set Link: https://www.kaggle.com/faa/wildlife-strikes
+Data Details: Aircraft Wildlife Strikes,1990-2015. Has 174K rows in total.
+
+Answer the following questions to achieve goal: 
+work on 1,2,7
+
+1. **Which month has the highest rate of of bird strikes?
+    a. What percentage of those bird strikes cause fatalities per month?
+    b. What percentage of those bird strikes cause injuries per month?
+    Plots: 
+        Bar: x: Month, y: Number of Bird Strikes
+        Line: x: Month, y1:Number of bird strikes that cause injuries, y2:Number of bird strikes that cause fatalities y3:Number of bird strikes that cause non-fatal
+      
+    Keep Columns: 
+    
+2. **Is there a type of bird (species, flock or single bird) that contributes to the highest rate of bird strikes, overall?
+    a. Top ten species that cause highest rate of bird strikes, overall?
+    Plots:
+        Pie: Slices - show top 10 species that caused bird strikes, overall
+        Histogram: Bins: Number of birds that collided with plane
+            
+    Keep Columns:
+
+3. At what point during the flight phase do most bird strikes take place, overall? (Flight Phase)
+    Plots:
+        Bar: x: flight phase, y: number of bird strikes
+
+4. Which airline operator had the most bird strikes, overall? (Operator)
+    a. Look at commercial vs. military, airplane carrier (ex: United, Delta, etc.)
+    Plots:
+        Pie: Commercial vs. Military (note: may have to rename/regroup operator)
+        Pie: Bird strikes by airplane carrier
+
+5. Where do most bird strikes take place? (ex: FAA region, State) - OPTIONAL
+    Plots: 
+        Bar: 
+        (IF TIME PERMITS) Use Google Map API to create heatmap weighted by bird strikes (by airport or state) 
+
+
+6. Which part of the plane (ex: engine, turbine, etc.) is most affected by bird strikes? 
+    (Need a for loop to go through each part of the plane)
+    a. Distinguish between whether the strike happened and whether it caused damaged.
+
+7. **Is there a correlation between weather conditions, such as Visibility (dawn, day, dusk, night) and Precipitation (fog, rain, snow...), and bird strikes?
+    Plots:
+        Bar: x: Visibility, y: bird strikes
+        Bar: x:Precipitation, y: bird strikes
+    
+    a. Is there a correlation between weather conditions, such as Visibility and Precipitation, and injuries and fatalities? (optional: if there is enough data)
+    Hypothesis 1: More injuries+fatalities happen in fair weather (Precipitation = None)
+    Hypothesis 2: More injuries+fatalities happen during the day (Visibility = dawn+day)
+        
+
+Project Phases:
+1. Brainstorm all the cleaned dataframes that need to be created, each group member will be in charge of a different different
+    a. Export each cleaned dataset into a csv, and store in "Resources" folder
+2. Create branches, 1 per question/topic
+3. Copy this main py file into the branches, each group member will work on a different branch - 
+    Title the py file in each branch with group member's name
+>>>>>>> main
 4. Team meeting to approve and merge into main
