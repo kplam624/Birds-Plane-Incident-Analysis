@@ -1,6 +1,23 @@
 # Project_1
+
 ## Birds and Planes
+
+Group 8(Combat Wombats)
+
+Team Members:
+
+Rongjun "Tom" Ding
+
+Joe Lubrano
+
+Kevin Lam
+
+Rafael Rodriguez
+
+Ramyata Umpaka
+
 ## Goal: Create awareness of the issue of birds striking airplanes and identify important factors related to this occurrence
+
 Our team looked for trends and risks associated with bird strikes over a 15 year period (1990-2015) in the U.S. (states and terrritories) and Canada. 
 
 * See our powerpoint presentation for interesting analysis: "Project-1_CombatWombats.pptx"
