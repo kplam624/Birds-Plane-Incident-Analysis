@@ -62,6 +62,8 @@ More indepth explanation of cleaning in "Cleaned_Database_Code.ipynb".
 
 Upon finishing the analysis there are interesting findings.
 
+#### Strikes by Season
+
 ![Bird Strikes By Season](Output_data/BSbySeason.png)
 
 ![Bird Strikes By Month](Output_data/BSbyMonth.png)
@@ -70,11 +72,17 @@ Upon finishing the analysis there are interesting findings.
 
 When it comes to the frequency of bird strikes, a majority of them occur during the Summer by a large margin. When it came to the months the highest frequency of bird hits occur during September. August, September, and October have the three highest incident rate of bird hits. An even more interesting event is the rate of injury and death from the incidents. With January leading the way with the highest percentage of injury.
 
+#### Plane Damage
+
 ![Plane Damage](Output_data/PlaneParts.png)
 
 ![Plane With Fatalities](Output_data/PlanePartsFatalities.png)
 
 ![Plane With Injuries](Output_data/PlanePartsInjuries.png)
+
+With the plots above, we examine incidents involving the plane's parts. From the first plot the most hit is the windshield followed by the nose of the plane. While these parts are the most hit, the part that is damaged more frequently is the Wing or Rotor of the plane. 
+
+NOTES:
 
 * See our powerpoint presentation for interesting analysis: "Project-1_CombatWombats.pptx"
 
