@@ -26,7 +26,7 @@ Cleaned_data.csv- the final database after cleaning.
 
 Brainstorming.txt
 
-### Software:
+### Software
 
 * Python 3
 
@@ -37,6 +37,8 @@ Brainstorming.txt
 ## Goal: Create awareness of the issue of birds striking airplanes and identify important factors related to this occurrence
 
 Our team looked for trends and risks associated with bird strikes over a 15 year period (1990-2015) in the U.S. (states and terrritories) and Canada.
+
+In our analysis we had decided to look at the territories within the United States. Cleaning was required as animals would appear that are not birds(e.g. deer, alligators, turtles, etc.). Further cleaning was needed to remove unknown and private planes. NAN records were changed to 0 as the database counted 0 as false. When appropiate the zeroes were removed from the database(e.g. Names). The result is the final database Cleaned_data.csv.
 
 * See our powerpoint presentation for interesting analysis: "Project-1_CombatWombats.pptx"
 
