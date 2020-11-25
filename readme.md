@@ -2,9 +2,9 @@
 
 ## Birds and Planes
 
-Group 8(Combat Wombats)
+Group 8 (Combat Wombats)
 
-Team Members:
+### Team Members
 
 Rongjun "Tom" Ding
 
@@ -16,9 +16,13 @@ Rafael Rodriguez
 
 Ramyata Umpaka
 
+## Resources
+
+[link to the database](https://www.kaggle.com/faa/wildlife-strikes) database.csv, pulled from kaggle.
+
 ## Goal: Create awareness of the issue of birds striking airplanes and identify important factors related to this occurrence
 
-Our team looked for trends and risks associated with bird strikes over a 15 year period (1990-2015) in the U.S. (states and terrritories) and Canada. 
+Our team looked for trends and risks associated with bird strikes over a 15 year period (1990-2015) in the U.S. (states and terrritories) and Canada.
 
 * See our powerpoint presentation for interesting analysis: "Project-1_CombatWombats.pptx"
 
