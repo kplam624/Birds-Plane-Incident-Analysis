@@ -66,7 +66,7 @@ Upon finishing the analysis there are interesting findings.
 
 ![Bird Strikes By Month](Output_data/BSbyMonth.png)
 
-![Bird Rate of Injury](bird_rate_data.png)
+![Bird Rate of Injury](Output_data/bird_rate_data.png)
 
 When it comes to the frequency of bird strikes, a majority of them occur during the Summer by a large margin. When it came to the months the highest frequency of bird hits occur during September. August, September, and October have the three highest incident rate of bird hits. An even more interesting event is the rate of injury and death from the incidents. With January leading the way with the highest percentage of injury.
 
