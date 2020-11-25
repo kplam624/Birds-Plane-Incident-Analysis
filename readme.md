@@ -6,19 +6,33 @@ Group 8 (Combat Wombats)
 
 ### Team Members
 
-Rongjun "Tom" Ding
+* Rongjun "Tom" Ding
 
-Joe Lubrano
+* Joe Lubrano
 
-Kevin Lam
+* Kevin Lam
 
-Rafael Rodriguez
+* Rafael Rodriguez
 
-Ramyata Umpaka
+* Ramyata Umpaka
 
 ## Resources
 
-[link to the database](https://www.kaggle.com/faa/wildlife-strikes) database.csv, pulled from kaggle.
+The database that we worked with is database.csv. This database was found on www.kaggle.com with the link listed below.
+
+[link to the database](https://www.kaggle.com/faa/wildlife-strikes)
+
+Cleaned_data.csv- the final database after cleaning.
+
+Brainstorming.txt
+
+### Software:
+
+* Python 3
+
+* Matplotlib
+
+* Pandas
 
 ## Goal: Create awareness of the issue of birds striking airplanes and identify important factors related to this occurrence
 
