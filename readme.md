@@ -36,9 +36,36 @@ Brainstorming.txt
 
 ## Goal: Create awareness of the issue of birds striking airplanes and identify important factors related to this occurrence
 
-Our team looked for trends and risks associated with bird strikes over a 15 year period (1990-2015) in the U.S. (states and terrritories) and Canada.
+Our team looked for trends and risks associated with bird strikes over a 15 year period (1990-2015) in the U.S. (states and territories) and Canada.
+
+### Roles
+
+* Data Cleaning - All team members
+
+* Plane Damage Analysis - Ramyata Upmaka
+
+* Statistical Analysis - Rafael Rodriguez
+
+* Region Analysis - Joe Lubrano
+
+* Bird Analysis - Kevin Lam
+
+* Weather and Precipitation Analysis - Rongjun "Tom" Ding
+
+### Cleaning Process
 
 In our analysis we had decided to look at the territories within the United States. Cleaning was required as animals would appear that are not birds(e.g. deer, alligators, turtles, etc.). Further cleaning was needed to remove unknown and private planes. NAN records were changed to 0 as the database counted 0 as false. When appropiate the zeroes were removed from the database(e.g. Names). The result is the final database Cleaned_data.csv.
+
+More indepth explanation of cleaning in "Cleaned_Database_Code.ipynb".
+
+### Results / Findings
+
+Upon finishing the analysis there are interesting findings.
+
+![Bird Strikes By Season](Output_data/BSbySeason.png)
+
+When it comes to the frequency of bird strikes, a large amount them occur within the month of January.
+
 
 * See our powerpoint presentation for interesting analysis: "Project-1_CombatWombats.pptx"
 
