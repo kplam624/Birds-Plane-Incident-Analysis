@@ -18,6 +18,8 @@ Group 8 (Combat Wombats)
 
 ## Resources
 
+---
+
 The database that we worked with is database.csv. This database was found on www.kaggle.com with the link listed below.
 
 [link to the database](https://www.kaggle.com/faa/wildlife-strikes)
@@ -27,6 +29,8 @@ Cleaned_data.csv- the final database after cleaning.
 Brainstorming.txt
 
 ### Software
+
+---
 
 * Python 3
 
@@ -38,7 +42,9 @@ Brainstorming.txt
 
 Our team looked for trends and risks associated with bird strikes over a 15 year period (1990-2015) in the U.S. (states and territories) and Canada.
 
-### Roles
+## Roles
+
+---
 
 * Data Cleaning - All team members
 
@@ -52,17 +58,23 @@ Our team looked for trends and risks associated with bird strikes over a 15 year
 
 * Weather and Precipitation Analysis - Rongjun "Tom" Ding
 
-### Cleaning Process
+## Cleaning Process
+
+---
 
 In our analysis we had decided to look at the territories within the United States. Cleaning was required as animals would appear that are not birds(e.g. deer, alligators, turtles, etc.). Further cleaning was needed to remove unknown and private planes. NAN records were changed to 0 as the database counted 0 as false. When appropiate the zeroes were removed from the database(e.g. Names). The result is the final database Cleaned_data.csv.
 
 More indepth explanation of cleaning in "Cleaned_Database_Code.ipynb".
 
-### Results / Findings
+## Results / Findings
+
+---
 
 Upon finishing the analysis there are interesting findings.
 
-#### Strikes by Season
+### Strikes by Season
+
+---
 
 ![Bird Strikes By Season](Output_data/BSbySeason.png)
 
@@ -72,7 +84,9 @@ Upon finishing the analysis there are interesting findings.
 
 When it comes to the frequency of bird strikes, a majority of them occur during the Summer by a large margin. When it came to the months the highest frequency of bird hits occur during September. August, September, and October have the three highest incident rate of bird hits. An even more interesting event is the rate of injury and death from the incidents. With January leading the way with the highest percentage of injury.
 
-#### Plane Damage
+### Plane Damage
+
+---
 
 ![Plane Damage](Output_data/PlaneParts.png)
 
@@ -80,7 +94,29 @@ When it comes to the frequency of bird strikes, a majority of them occur during 
 
 ![Plane With Injuries](Output_data/PlanePartsInjuries.png)
 
-With the plots above, we examine incidents involving the plane's parts. From the first plot the most hit is the windshield followed by the nose of the plane. While these parts are the most hit, the part that is damaged more frequently is the Wing or Rotor of the plane. 
+With the plots above, we examine incidents involving the plane's parts. From the first plot the most hit is the windshield followed by the nose of the plane. While these parts are the most hit, the part that is damaged more frequently is the Wing or Rotor of the plane.
+
+### Weather Conditions
+
+---
+
+Insert plots of weather condition strikes
+
+### Bird hits by Area
+
+---
+
+Insert plots of bird strikes by region
+
+### Types of Birds
+
+---
+
+Types of birds being hit
+
+### Statistical Analysis
+
+---
 
 NOTES:
 
