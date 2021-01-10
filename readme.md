@@ -100,25 +100,55 @@ With the plots above, we examine incidents involving the plane's parts. From the
 
 ---
 
-Insert plots of weather condition strikes
+![visibility](Output_data/Visibility_vs_bird_strikes.png)
+
+When looking at the conditions, based on the data a majority of the incidents are during the day.
 
 ### Bird hits by Area
 
 ---
 
-Insert plots of bird strikes by region
+![birdsbyregion](Output_data/SBSinFAA.png)
+
+The  top three states that have the most incidences are Texas, California, and Florida.
+
+![airportmap](Output_data/Screenshot(200).png)
+
+This map is represents the top 100 airports with the most incidences in the United States. Based on this heat map the east coast has a large cluster of airports.
 
 ### Types of Birds
 
 ---
 
-Types of birds being hit
+![bird by flock](output/known_inc_bar.png)
+
+The above chart shows the frequency of hits and the size of their flock.
+
+![bird](output/birds_bar.png)
+
+Based on the plot above the most common bird involved is the gull followed by the mourning dove.
+
+![Incidences by known](output/inc_by_quant.png)
+
+With the above charts, we find that the birds that strike planes are individuals. The chart above represents a further breakdown on the top ten bird and their flock size.
 
 ### Statistical Analysis
 
 ---
 
-NOTES:
+![chi-square](Output_data/bird_correlation.png)
+
+The chi square above shows that the time of day does have a relationship to the amount of bird hits.
+
+### Conclusion
+
+---
+
+Based on our analysis, the most common bird in the bird strikes are the gulls. Bird strikes mainly occur on the coast. With the help of the heatmap, it shows that the airports are located on the east coast as well. The summer time has the highest amount of bird hits of the seasons.
+
+### Other words
+
+---
 
 * See our powerpoint presentation for interesting analysis: "Project-1_CombatWombats.pptx"
 
